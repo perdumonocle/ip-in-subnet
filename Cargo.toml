@@ -3,8 +3,8 @@ name = "ip-in-subnet"
 version = "0.1.0"
 authors = ["perdumonocle <konstantin_1987@mail.ru>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "Checking that subnet contains an IP address"
+license = "MIT"
 
 [dependencies]
 netaddr2 = "0.7.1"
