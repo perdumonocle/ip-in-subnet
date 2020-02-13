@@ -1,6 +1,6 @@
 [package]
 name = "ip-in-subnet"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["perdumonocle <konstantin_1987@mail.ru>"]
 edition = "2018"
 description = "Checking that subnet contains an IP address"

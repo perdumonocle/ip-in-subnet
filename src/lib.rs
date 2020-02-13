@@ -8,7 +8,7 @@
 //! 
 //! ```toml
 //! [dependencies]
-//! sql-builder = "0.1"
+//! ip-in-subnet = "0.1"
 //! ```
 //! 
 //! # Examples
