@@ -1,10 +1,11 @@
 [package]
 name = "ip-in-subnet"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["perdumonocle <konstantin_1987@mail.ru>"]
 edition = "2018"
 description = "Checking that subnet contains an IP address"
 license = "MIT"
+readme = "README.md"
 
 [dependencies]
 netaddr2 = "0.7.1"
