@@ -4,16 +4,16 @@ Checking that subnet contains an IP address.
 
 ## Usage
 
-To use `sql-builder`, first add this to your `Cargo.toml`:
+To use `ip-in-subnet`, first add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
 ip-in-subnet = "0.1"
 ```
 
-# Examples
+## Examples
 
-## Check that subnet contains an interface.
+### Check that subnet contains an interface.
 
 ```
 extern crate ip_in_subnet;
@@ -33,7 +33,7 @@ let res = iface_in_subnet("192.168.183.1", "192.168.182.0/24").unwrap();
 assert!(!res);
 ```
 
-## Check that any subnet contains an interface.
+### Check that any subnet contains an interface.
 
 ```
 extern crate ip_in_subnet;
@@ -55,7 +55,7 @@ let res = iface_in_any_subnet("192.168.183.1", &subnets).unwrap();
 assert!(!res);
 ```
 
-## Check that all subnets contains an interface.
+### Check that all subnets contains an interface.
 
 ```
 extern crate ip_in_subnet;
@@ -77,7 +77,7 @@ let res = iface_in_all_subnets("192.168.182.1", &subnets).unwrap();
 assert!(!res);
 ```
 
-## Check that any subnet contains any interface.
+### Check that any subnet contains any interface.
 
 ```
 extern crate ip_in_subnet;
